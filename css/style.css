@@ -1,0 +1,76 @@
+body{
+  font-family: 'Lato', sans-serif;
+  color: #222222;
+  font-size: 1em;
+}
+h1,h2,a{
+  font-family: 'Raleway', sans-serif;
+}
+ a{
+   color:#00CC66;
+   format:none;
+   text-decoration: none;
+font-weight: bold; 
+ } 
+.masthead{
+  border-radius: 1em 1em 0 0;
+  padding:6em 0;
+  background-image:url('http://i.imgur.com/Lujoefy.jpg?1');
+  background-repeat: no-repeat;
+  background-size:cover;
+  border-top: solid 1em #00CC66;
+  text-transform:uppercase;
+  letter-spacing:-0.03em;
+  font-weight:bold;
+  font-size: 1em;
+}
+.masthead-name{
+  margin-top: -1.35em;
+   margin-left:4.97em;
+  color:#FFFFFF;
+  text-shadow: 1px 1px 1px #00CC66;
+}
+
+.masthead-description{
+  margin-top:-1.2em;
+  margin-left:10em;
+  color:#00CC66;
+}
+.masthead-name ,
+.masthead-name2 ,
+.masthead-description{
+  text-align:left;
+}
+
+.footer-section{
+  text-align:center
+}
+
+.intro-section,
+.from-section,
+.more-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+}
+.more-section{
+
+}
+h2{
+  color:#00CC66;
+}
+.footer-section{
+  background-color: #333333;
+  padding:2em;
+  border-radius: 0em 0em 1em 1em;
+
+}
+.social > li {
+    display: inline-block;
+  margin:0 0.5em 0 0.5em;
+}
+.footer-section > p {
+ color: white;
+}
