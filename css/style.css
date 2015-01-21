@@ -22,24 +22,47 @@ font-weight: bold;
   text-transform:uppercase;
   letter-spacing:-0.03em;
   font-weight:bold;
-  font-size: 1em;
+ 
 }
+
 .masthead-name{
-  margin-top: -1.35em;
+  margin-top: -0.35em;
    margin-left:4.97em;
   color:#FFFFFF;
   text-shadow: 1px 1px 1px #00CC66;
+   font-size: 2em;
 }
 
 .masthead-description{
   margin-top:-1.2em;
   margin-left:10em;
   color:#00CC66;
+  font-size: 1em;
 }
 .masthead-name ,
 .masthead-name2 ,
 .masthead-description{
   text-align:left;
+}
+
+@media only screen and (max-width: 600px) {
+.masthead-name ,
+.masthead-name2   {
+        font-size: 1.5em;
+    max-width: 14em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+    .masthead-description{
+  text-align:left;
+   font-size: 1em;
+    max-width: 14em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 }
 
 .footer-section{
