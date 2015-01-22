@@ -63,6 +63,16 @@ font-weight: bold;
     margin-right: auto;
     text-align: center;
 }
+.intro-section,
+.from-section,
+.more-section {
+    max-width: 46em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    font-size:0.7rem;
+}
 }
 
 .footer-section{
